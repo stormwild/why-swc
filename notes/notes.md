@@ -57,3 +57,36 @@ svg-term --cast <id> --out why-swc.svg
 [Linting best practices](https://webapp.io/blog/linting-best-practices/)
 
 [Compare the Top 3 Style Guides and Set Them Up With ESLint](https://betterprogramming.pub/comparing-the-top-three-style-guides-and-setting-them-up-with-eslint-98ea0d2fc5b7)
+
+```sh
+npm i -D eslint
+npm init @eslint/config
+npm i -D prettier
+npm i -D eslint-plugin-prettier
+npm i -D eslint-config-prettier
+```
+
+## JsonPlaceholder
+
+[{JSON} Placeholder](https://jsonplaceholder.typicode.com/)
+
+[Mockend](https://mockend.com/)
+
+## .npmrc
+
+`~/.npmrc`
+```
+--init-author-name=Alexander R. Torrijos
+--init-author-email=artorrijos@gmail.com
+--init-author-url=https://stormwild.github.io/
+--init-license=MIT
+```
+
+## Webpack
+
+```
+npm i -D webpack webpack-cli
+npm i -D webpack-dev-server
+npm i -D html-loader css-loader style-loader swc-loader
+npm i -D html-webpack-plugin
+```

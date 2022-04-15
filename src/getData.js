@@ -1,4 +1,4 @@
-import fetch from 'node-fetch';
+// import fetch from 'node-fetch';
 
 async function getData() {
   const res = await fetch('https://jsonplaceholder.typicode.com/todos/1');
