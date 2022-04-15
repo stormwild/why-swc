@@ -6,6 +6,7 @@
 
 ```
 npm i -D @swc/core @swc/cli \
+npm i -S node-fetch \
 npm i -S regenerator-runtime
 ```
 
